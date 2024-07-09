@@ -19,17 +19,19 @@ const Breadcrumbs = () => {
                 {path.map((value, index) => {
                     const to = `/${path.slice(0, index + 1).join('/')}`;
                     const isLast = index === path.length - 1;
+                    const displayValue = decodeURIComponent(value).replace(/-/g, ' ');
                     return (
                         <React.Fragment key={to}>
+                            <span className='text-lg font-normal capitalize'>
+                                {' -> '}
+                            </span>
                             {!isLast ? (
-                                <span className='text-lg font-normal capitalize'>
-                                    {'-> '} 
-                                    {value.replace(/-/g, '')}
-                                </span>
+                                <Link to={to} className='text-lg font-normal capitalize'>
+                                    {displayValue}
+                                </Link>
                             ) : (
                                 <span className='text-lg font-normal capitalize'>
-                                    {'-> '}  
-                                    {value.replace(/-/g, '')}
+                                    {displayValue}
                                 </span>
                             )}
                         </React.Fragment>

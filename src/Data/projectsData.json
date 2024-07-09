@@ -1,0 +1,41 @@
+{
+    "Central Saint Giles": {
+        "name": "Central Saint Giles",
+        "location": "London",
+        "area": "70.000 m²",
+        "constructionCost": "130 mill NOK",
+        "year": "2019",
+        "client": "Vanke",
+        "description": "Nanchang Wave is a landscape based community centre with a varied program forming the heart of a large residential development. The double helix structure towards the wetland area gives 360 degrees overview of the neighbourhood as one walks up to the panoramic gallery at top.",
+        "gallery": [
+            { "src": "CentralGiles.png", "title": "Central Saint Giles", "location": "London" },
+            { "src": "CentralGilesFront.png", "title": "Front facades", "location": "London" },
+            { "src": "CentralGilesSide.png", "title": "Facades from the side", "location": "London" },
+            { "src": "CentralGilesCloseUp1.png", "title": "Facades close up", "location": "London" },
+            { "src": "CentralGilesCloseUp2.png", "title": "Facades close up", "location": "London" },
+            { "src": "CentralGilesGlass.png", "title": "Side glass panels", "location": "London" },
+            { "src": "CentralGilesBalconies.png", "title": "Hanging balconies", "location": "London" }
+        ]
+    },
+
+    "UVU Classroom Building": {
+    "name": "UVU Classroom Building",
+    "location": "Omer",
+    "area": "30.000 m²",
+    "constructionCost": "48 mill NOK",
+    "year": "2023",
+    "client": "Anita",
+    "description": "Classroom Building at Utah Valley University creates a soft northern edge to the newest quadrangle on campus, which is dominated on the west by the CRSA designed Library, anchor to the new academic heart of campus.",
+    "gallery": [
+      { "src": "Uvu-classroom.png", "title": "Uvu Classroom Building", "location": "Omer" },
+      { "src": "uvuInterior.png", "title": "Classroom interior", "location": "Omer" },
+      { "src": "UVUinterior1.png", "title": "Classroom interior", "location": "Omer" },
+      { "src": "UvuSide.png", "title": "Classroom side", "location": "Omer" },
+      { "src": "UVUConference.png", "title": "Conference room", "location": "Omer" },
+      { "src": "UvuReception.png", "title": "Reception", "location": "Omer" },
+      { "src": "UvuRelax.png", "title": "Relax room", "location": "Omer" }
+    ]
+  }
+    
+}
+

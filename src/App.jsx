@@ -5,7 +5,7 @@ import Footer from './Components/Footer';
 import HomePage from './Components/HomePage';
 import History from './Components/History';
 import ProjectsPage from './Components/ProjectsPage';
-import ProjectPage from './Components/ProjectPage';
+import ProjectsDetails from './Components/ProjectsDetails';
 import ContactPageNumber from './Components/ContactPageNumber';
 import ContactPageEmail from './Components/ContactPageEmail';
 import Breadcrumbs from './Components/Breadcrumbs';
@@ -44,7 +44,7 @@ const App = () => {
         />} />
         <Route path="/history" element={<History />} />
         <Route path="/projects" element={<ProjectsPage />} />
-        <Route path="/project" element={<ProjectPage />} />
+        <Route path="/projects/:projectName" element={<ProjectsDetails />} />
         <Route path="/contactNumber" element={<ContactPageNumber />} />
         <Route path="/contactEmail" element={<ContactPageEmail />} />
       </Routes>
